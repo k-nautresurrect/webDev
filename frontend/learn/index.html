@@ -101,11 +101,17 @@
 		</tbody>
 	</table>
 	<h1>Links</h1>
-	<a href="https://google.com">Go to <i>google</i></a>
+	<a href="https://google.com" target="_parent">Go to <i>google</i></a>
 	<br>
 	<a href="./link/inner-link.html">Inner Link</a>
-	<p>    </p><h2>Target</h2>
+	<p>    </p><h2>Target</h2> <!-- how to add space in the document as like in simple code -->
 	<a href="https://wikipedia.com" target="_blank">Opens in new tab</a>
-
+	<h1>Iframes</h1>
+	<ul>
+		<li><a target="frame2" href="./link/inner-link.html">link</a></li>
+		<li><a target="frame2" href="https://example.com">URL</a></li>
+	</ul>
+	<iframe  name="frame1" frameborder="1" width="400px" height="600px" src="./link/inner-link.html"></iframe>
+	<iframe name="frame2" width="400px" height="600px" src="https://example.com"></iframe>
 </body>
 </html>
