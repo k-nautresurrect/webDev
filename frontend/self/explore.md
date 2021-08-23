@@ -1,7 +1,8 @@
-#fri Aug 20 2021
+# fri Aug 20 2021
 <p> 
 	basic html 
 </p>
+
 - how can i create my own liveserver as like in visual basic code ?
 	For displaying the refreshed webpage that i had opened on some port
 	after some changes
