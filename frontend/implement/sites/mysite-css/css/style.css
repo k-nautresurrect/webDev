@@ -2,10 +2,7 @@ body{
     margin: 0;
 }
 div.top-container {
-    background-color: rgb(190, 245, 245);
-    border: solid 10px;
-    width: 200px;
-    height: 200px;
+    background-color: rgb(211, 248, 248);
     padding: 20px;
 }
 
