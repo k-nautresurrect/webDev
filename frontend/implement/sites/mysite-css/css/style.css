@@ -1,47 +1,154 @@
 body{
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 div.top-container {
-    background-color: rgb(211, 248, 248);
-    padding: 20px;
+    background-color: rgb(93, 173, 173);
+    padding: 20px 20px 0 20px;
     position: relative;
     padding-top: 100px;
-}
 
-div.middle-container{
+}
+/* 16px = 1em = 100% -> fontsize */
+/* div.middle-container{
     width: 200px;
     height: 200px;
     background-color: rgb(255, 139, 139);
     border: solid 20px;
-    /* here border wil increase the size of the div
+        here border wil increase the size of the div
         accordingly to the dimension given 
         it will grow further in its own box
-    */
+    
     margin-left: 260px;
-}
-
+} */
+/* 
 div.bottom-container{
     width: 200px;
     height: 200px;
     background-color: rgb(122, 195, 255);
     margin-left: 500px;
     border: solid 10px;
-}
+} */
+
 h1{
     margin-top: 0px;
-    width: 40%;
     margin: 100px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-weight: 450;
+    font-size: 4rem;
+    color: rgb(186, 247, 228);
+}
+
+p.desc{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgb(0, 99, 67);
+
+}
+
+u{
+    color: rgb(255, 255, 255);
 }
 
 img.bottom-cloud{
     position: absolute;
     left: 300px;
-    top: 300px;  
+    top: 350px;  
 }
 
 img.top-cloud{
     position: absolute;
     right: 100px;
     top: 50px; 
+}
+
+img.profile{
+    border: dashed 3px;
+    border-color: rgb(126, 126, 126);
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+img.devops{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+img.producer{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+div.middle-container{
+    padding-top: 150px;
+    background-color: rgb(200, 245, 245);
+}
+
+div.bottom-container{
+    background-color: rgb(53, 53, 53);
+    padding: 10px;
+}
+
+div.bottom-container>p {
+    color: rgb(241, 241, 241);
+}
+
+a.footer-link{
+    color: rgb(67, 233, 116);
+    font-weight: 300;
+    font-size: 14pt;
+    padding: 5px;
+    
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+h3{
+    color: rgb(72, 3, 75);
+}
+
+p.devops-text{
+    clear: left;
+}
+
+p.producer-text{
+    clear: right;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    color: rgb(4, 85, 66);
+    font-size: 16pt;
+}
+
+p.hello-text{
+    width: 30%;
+    margin: auto;
+}
+
+hr {
+    width: 30%;
+    border: dotted 6px rgb(77, 77, 77);
+    border-bottom: none;
+
+}
+
+div.profile{
+    padding-bottom: 100px;
+}
+
+div.skills{
+    padding-top: 50px;
 }
