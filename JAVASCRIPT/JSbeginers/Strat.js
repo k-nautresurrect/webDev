@@ -68,4 +68,24 @@ greets('john', 'smith');
 greets('brad'); // made param2 to undefined
 
 console.log();
-alert(console.log());
+
+/*alert(console.log());*/ //undefined
+
+
+// Airthematic Operators.
+let x = 10;
+let y = 4;
+
+console.log(x+y); // here x+y is an expression.
+console.log(x-y);
+console.log(x*y);
+console.log(x/y); // to make it like c/c++ use Math.ceil().
+console.log(x%y);
+console.log(Math.ceil(x/y)); // gives 4 not 3
+console.log(Math.ceil(4.1,1)); // gives 5 as 4.1 > 5
+console.log(Math.ceil(4.01));
+console.log(Math.ceil(null)); //gives 0 not NAN
+// Maths.ceil() function always rounds a number up to the next largest int
+
+console.log(Math);
+console.log(typeof(Math));
