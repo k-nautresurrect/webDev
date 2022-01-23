@@ -57,40 +57,48 @@
 	font-size: 1.25rem;
 }
 
-.menu {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: 0.25rem;
-}
-
-.menu > span {
-	background-color: white;
-	margin: 0.15rem 0.15rem 0.15rem 0.15rem;
-	width: 1.75rem;
-	height: 0.25rem;
-}
-
-.menu:hover {
-	background-color: #000;
-	border-radius: 50%;
-} 
-
-.menu:active {
-	background-color: #353535;
-	animation-duration: 0.5s;
-	animation-name: ripple;
-	border-radius: 50%;
-}
-
-@keyframes ripple {
-	from{
-		width: 0;
-		height: 0;
+@media (max-width: 600px) {
+	.menuItem{
+		display: none;
 	}
-	to{
-		width: 3rem;
-		height: 2.25rem;
+
+	.menu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0.25rem;
 	}
+	
+	.menu > span {
+		background-color: white;
+		margin: 0.15rem 0.15rem 0.15rem 0.15rem;
+		width: 1.75rem;
+		height: 0.25rem;
+	}
+	
+	.menu:hover {
+		background-color: #000;
+		border-radius: 50%;
+	} 
+
+	.menu:active {
+		background-color: #555555;
+		animation-duration: 0.25s;
+		animation-name: ripple;
+		border-radius: 50%;	
+	}
+	
+	@keyframes ripple {
+		from{
+			width: 0;
+			height: 0;
+		}
+		to{
+			width: 2.25rem;
+			height: 2.25rem;
+		}
+	}
+
+
 }
